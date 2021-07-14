@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Account Registration</title>
+    
+    <style>
+        
+    </style>
+</head>
+<body>
+    <h1>Account Registration</h1>
+<form>
+    <fieldset id="userType">
+        <legend>Type of User</legend>
+        <label for="userType">What type of user are you?</label>
+        <input type="radio" name="userType" value="Customer">Customer
+        <input type="radio" name="userType" value="Employee/Contractor">Employee/Contractor
+        <input type="radio" name="userType" value="Federal Employee/Contractor">Federal Employee/Contractor
+    </fieldset>
+    <fieldset id="userEmail">
+        <legend>Email</legend>
+        <label for="personalEmail">Personal Email Address</label>
+        <input type="email" name="personalEmail"></input>
+        <label for="businessEmail">Business Email Address</label>
+        <input type="email" name="businessEmail"></input>
+    </fieldset>
+    <fieldset id="userPassword">
+        <legend>Password</legend>
+        <label for="userPassword">Password</label>
+        <input type="password" name="userPassword">
+    </fieldset>
+    <fieldset id="userUseCase">
+        <legend>Use Case</legend>
+        <label for="useCase">I'm interested in: </label>
+        <select name="useCase" id="useCases">
+            <option value="Personal">Personal</option>
+            <option value="Business">Business</option>
+        </select>
+    </fieldset>
+    <fieldset id="userAgeVerification">
+        <legend>Age Verification</legend>
+        <label for="ageVerification">I am over 18 years of age.</label>
+        <input type="radio" name="ageVerification">
+    </fieldset>
+</form>
+</body>
+</html>
